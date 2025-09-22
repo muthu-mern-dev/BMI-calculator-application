@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="block">
+    <h2>IBM Calculator</h2>
+    <label for="age" class="age">Age</label>
+    <input type="age" id="age" class="age"><br>
+    <label class="button">
+        <input type="radio" name="gender" value="Male" class="radio"> Male
+    </label>
+    <label class="button">
+        <input type="radio" name="gender" value="Female" class="radio">Female
+    </label><br>
+    <p id="para">
+        These ranges of BMI vary based on factors such as region and age, and are sometimes further divided into subcategories such as severely underweight or very severely obese. Being overweight or underweight can have significant health effects, so while BMI is an imperfect measure of healthy body weight, it is a useful indicator of whether any additional testing or action is required. Refer to the table below to see the different categories based on BMI that are used by the calculator.
+    </p>
+    <input type="text" id="height" placeholder="Height[feet and inches]">
+    <input type="text" id="weight" placeholder="Weight[kilograms]">
+    <button id="btn" onclick="bmi()">Calculate</button><br>
+    <input type="text" id="result" placeholder="BMI">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
